@@ -1,6 +1,7 @@
 import { Entity } from './entity'
+import { Completable } from "./completable";
 
-export class Task extends Entity {
+export class Task extends Entity implements Completable {
   private _completed: boolean
   private _priority: number
 

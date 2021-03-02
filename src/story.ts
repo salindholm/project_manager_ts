@@ -1,7 +1,8 @@
 import { Entity } from "./entity";
 import { Task } from "./task";
+import { Completable } from "./completable";
 
-export class Story extends Entity {
+export class Story extends Entity implements Completable {
   private _completed: boolean;
   private _responsible: string;
   private _tasks: Array<Task> = [];
