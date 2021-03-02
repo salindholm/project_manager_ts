@@ -3,7 +3,8 @@
     "module": "commonjs",
     "target": "es2015",
     "removeComments": true,
-    "outDir": "./bin"
+    "outDir": "./bin",
+    "experimentalDecorators": true
   },
   "include": ["src/**/*"]
 }
